@@ -100,13 +100,14 @@ while not ask:
                     else:
                         print("you lose the round")
                         player_game_score=0
+                    print("your round score is",player_game_score)
                     print("your total game score is", player_score)
                     ai_score = ai_score + ai_game_score
+                    print("ai round score is",ai_game_score)
                     print("ai total game score is", ai_score)
                     player_game_score = 0
                     ai_game_score = 0
-                    print("***  GAME END  ***")
-                    game=True
+
 
 print("the scores were:")
 print("ai: ", ai_score)
